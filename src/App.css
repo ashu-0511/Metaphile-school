@@ -1,0 +1,21 @@
+body {
+    transition: margin-left 0.3s ease-in-out;
+    background-color: rgb(241, 241, 241);
+}
+
+.sidebar-content {
+    overflow-y: auto;
+    max-height: calc(100vh - 50px);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.sidebar-content::-webkit-scrollbar {
+    display: none;
+}
+
+.payable {
+    height: 389px;
+    overflow: overlay;
+    scrollbar-width: none;
+}
